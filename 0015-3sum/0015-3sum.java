@@ -25,6 +25,7 @@ class Solution {
 
                     // Present Elemtes for j =/= Previous -> Run
                     while(j < k && nums[j] == nums[j - 1]) {
+                        // continue; -> j++을 하지 않았기 때문에 while 조건문 조건에 해당하는 값으로 다시 루프
                         j++;
                     }
                 }
